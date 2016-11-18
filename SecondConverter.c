@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <math.h>
+
+
 int secToHours (long time, int* hours, int* minutes, int* seconds)
 {
 // Local Declarations 
