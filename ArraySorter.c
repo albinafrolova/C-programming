@@ -53,7 +53,7 @@ int main() {
          table[i][2] = ptr_array2[i];
     }
 
-    // Printing 2D array
+    // Printing 2D array table
     printf("Ascending\tOriginal\tDescending\n");
     printf("------------------------------------------\n");
     for (int i = 0; i < ROWS; ++i){
