@@ -1,7 +1,7 @@
 # C Programming Repository
 --------------------------
 **Contents**
-- C projects 
+- C-projects 
 - Algorithms
 - Data Structures 
 - HackerRank
