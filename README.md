@@ -1,8 +1,9 @@
 # C Programming Repository
 --------------------------
 **Contents**
-- C projects 
+- C-projects 
 - Algorithms
 - Data Structures 
+- HackerRank
 
-Date: 2016-11-18
+Date: 2016-12-05
