@@ -10,7 +10,9 @@ the array into ascending and descending order and prints the sorted list
 #define SIZE 5
 
 // Start of the program 
+
 int main() {
+      
   // Local declarations [main]
     int table[ROWS][COLS];
     int original[SIZE] = {26,14,57,33,41};
