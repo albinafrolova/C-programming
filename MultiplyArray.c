@@ -7,6 +7,7 @@ void multiply (int* pAry, int size);
 
 int main(void)
 {
+	
 //Local Declarations 
 	int ary [SIZE];
 	int* pLast;
@@ -29,6 +30,7 @@ int main(void)
 
 void multiply (int* pAry, int size)
 {
+	
 //Local Declarations 
 	int* pWalk;
 	int* pLast;
