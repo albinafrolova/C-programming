@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-
 int secToHours (long time, int* hours, int* minutes, int* seconds)
 {
-// Local Declarations 
-	long localTime;
 
-// Statements 
+	long localTime;
 	localTime = time;
 	*seconds = localTime % 60;
 	localTime = localTime / 60;
@@ -20,4 +17,4 @@ int secToHours (long time, int* hours, int* minutes, int* seconds)
 		return 0;
 	else 
 		return 1;
-} // secToHours
+} 
