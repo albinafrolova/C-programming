@@ -32,7 +32,6 @@ int main()
             ++spaces;
         }
     }
-
     printf("Vowels: %d",vowels);
     printf("\nConsonants: %d",consonants);
     printf("\nDigits: %d",digits);
