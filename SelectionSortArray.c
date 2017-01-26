@@ -1,10 +1,6 @@
 #include <stdio.h>
- 
-
- 
 #define SIZE 5
- 
- 
+
 int* getData (int* pAry, int arySize);
 void selectSort (int* pAry, int* pLast);
 void printData (int* pAry, int* pLast);
@@ -22,7 +18,6 @@ int main (void)
  
     return 0;
 }
- 
  
 int* getData (int* pAry, int arySize)
 {
@@ -99,8 +94,6 @@ void printData (int* pAry, int* pLast)
     int nmbrPrt;
     int* pPrint;
  
- 
- 
     printf("\n\nAscending: ");
     for (pPrint = pAry, nmbrPrt = 0;
         pPrint <= pLast;
@@ -112,8 +105,6 @@ void printData (int* pAry, int* pLast)
         pPrint >= pAry;
         nmbrPrt--, pPrint--)
         printf("%4d", *pPrint);
- 
-    
  
     return;
 }
