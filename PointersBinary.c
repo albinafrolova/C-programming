@@ -6,12 +6,10 @@ int binarySearch (int list[], int* endPtr,
 int main(void)
 
 {
-//Local Declarations 
 	int* firstPtr;
 	int* midPtr;
 	int* lastPtr;
 
-//Statements
 	firstPtr = list;
 	lastPtr =  endPtr;
 	while (firstPtr <= lastPtr)
