@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define MAX 30
  
 void main() {
@@ -16,8 +15,7 @@ void main() {
    for (i = 0; i < size; i++) {
       scanf("%d", ptr);
       ptr++;
-   }
- 
+   } 
    ptr = &arr[size - 1];
  
    printf("\nElements of array in reverse order are :");
