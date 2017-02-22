@@ -1,10 +1,5 @@
-//
-//  main.c
 //  FrolovaAlbina - Assignment2
-//
 //  Created by Альбина Фролова on 10/3/16.
-//  Copyright © 2016 Альбина Фролова. All rights reserved.
-//
 
 #include <stdio.h>
 #define LABOR 0.35

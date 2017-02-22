@@ -4,7 +4,6 @@
 
 int main (void)
 {
-  //Statements
   srand(time(NULL)); //Seed temporally
 
   printf("%d\n", rand());
@@ -12,4 +11,4 @@ int main (void)
   printf("%d\n", rand());
 
   return 0;          
-}//main
+}

@@ -1,14 +1,7 @@
-//
-//  main.c
-//  cww
-//
 //  Created by Альбина Фролова on 9/12/16.
 //  Copyright © 2016 Альбина Фролова. All rights reserved.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
-
 
 //Function declarations
 void getData(int* a, int* b, int* c, int* d, int* e);

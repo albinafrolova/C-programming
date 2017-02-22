@@ -10,7 +10,6 @@ int main()
 
     for (i = 1; i <= n; ++i)
     {
-        // Prints the first two terms.
         if(i == 1)
         {
             printf("%d, ", t1);

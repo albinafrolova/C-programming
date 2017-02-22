@@ -4,8 +4,7 @@ int main (void)
 {
 	int a;
 	int b;
-
-	//Statements
+	
 	printf("Please enter two integers: ");
 	scanf("%d%d", &a, &b);
 

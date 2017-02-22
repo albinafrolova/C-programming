@@ -4,9 +4,7 @@ int main()
 {
     char line[150];
     int i, vowels, consonants, digits, spaces;
-
     vowels =  consonants = digits = spaces = 0;
-
     printf("Enter a line of string: ");
     scanf("%[^\n]", line);
 
@@ -32,7 +30,6 @@ int main()
             ++spaces;
         }
     }
-
     printf("Vowels: %d",vowels);
     printf("\nConsonants: %d",consonants);
     printf("\nDigits: %d",digits);

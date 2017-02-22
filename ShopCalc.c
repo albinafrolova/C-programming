@@ -1,15 +1,7 @@
-//
-//  main.c
-//  cww
-//
 //  Created by Альбина Фролова on 9/12/16.
 //  Copyright © 2016 Альбина Фролова. All rights reserved.
-//
-
 #include <stdio.h>
-
 #define TAX_RATE 0.0825
-
 
 int main(void)
 {
