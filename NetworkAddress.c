@@ -11,7 +11,6 @@ int main(void)
 	uint32_t   mask32 = 0;
 	uint32_t   netAd = 0;
 	int        prefix;
-
 	printf("Enter host address <x.y.z.t>: ");
 	scanf("%d%*c%d%*c%d%*c%d", &comAddr[3], &comAddr[2], &comAddr[1],&comAddr[0]);
 
@@ -35,7 +34,6 @@ int main(void)
 		netAddr[i] = netAd % 256;
 		netAd      = netAd / 256;
 	}
-
 	printf("\nAddresses:\n");
 	printf("Computer Address: \n");
 	printf("%d.%d.%d.%d\n", comAddr[3], comAddr[2], comAddr[1], comAddr[0]);
